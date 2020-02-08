@@ -34,4 +34,9 @@ dependencies {
     annotationProcessor 'com.google.dagger:dagger-compiler:2.23.2'
     implementation files('libs/javax.inject-1.jar')
     implementation files('libs/javapoet-1.12.1.jar')
+    implementation files('libs/adapter-rxjava2-2.6.0.jar')
+    implementation files('libs/timber-4.7.1.jar')
+    implementation 'com.google.android.material:material:1.1.0'
+    implementation files('libs/core-1.8.3-2.x.jar')
+    implementation files('libs/runtime-1.8.3-2.x.jar')
 }
